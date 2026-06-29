@@ -1,4 +1,4 @@
-# 영양제 루틴 점검 AI
+# 영양제 루틴 Agent
 
 사용자가 보유한 영양제 제품을 모두 입력하면 다음을 제공하는
 OpenAI Agents SDK 기반 Streamlit 애플리케이션입니다.
