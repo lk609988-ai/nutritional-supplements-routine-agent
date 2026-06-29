@@ -7,7 +7,7 @@ import streamlit as st
 from agents import Agent, Runner, SQLiteSession, function_tool
 
 
-APP_TITLE = "영양제 루틴 점검 AI"
+APP_TITLE = "영양제 루틴 Agent"
 DB_PATH = str(Path(__file__).with_name("supplement_agent_memory.db"))
 
 
@@ -244,7 +244,7 @@ if "session_id" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-st.title("💊 영양제 루틴 점검 AI")
+st.title("💊 영양제 루틴 Agent")
 st.caption(
     "가지고 있는 영양제를 모두 입력하면 중복 성분과 주의사항을 확인하고, "
     "현실적인 하루 복용 시간표를 만들어드립니다."
